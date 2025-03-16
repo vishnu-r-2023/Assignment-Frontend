@@ -1,0 +1,57 @@
+.user-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  text-align: center;
+  padding: 20px;
+}
+
+.user-page h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.user-page p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.user-actions {
+  display: flex;
+  gap: 20px;
+}
+
+.user-actions .claim-button,
+.user-actions .home-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.user-actions .claim-button {
+  background-color: #007bff;
+}
+
+.user-actions .claim-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.user-actions .home-button {
+  background-color: #6c757d;
+}
+
+.user-actions .home-button:hover {
+  background-color: #5a6268;
+  transform: scale(1.05);
+}

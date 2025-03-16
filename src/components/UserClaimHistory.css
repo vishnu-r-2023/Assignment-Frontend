@@ -1,0 +1,50 @@
+.user-claim-history {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.user-claim-history h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.user-claim-history .error {
+  color: red;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.user-claim-history table {
+  width: 100%;
+  max-width: 800px;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.user-claim-history th,
+.user-claim-history td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.user-claim-history th {
+  background-color: #007bff;
+  color: white;
+}
+
+.user-claim-history tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.user-claim-history tr:hover {
+  background-color: #e9ecef;
+}

@@ -1,0 +1,157 @@
+.admin-dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.admin-dashboard h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.admin-dashboard .error {
+  color: red;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.admin-dashboard .add-coupon {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.admin-dashboard .add-coupon input {
+  padding: 10px;
+  font-size: 1rem;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.admin-dashboard .add-coupon button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: white;
+  background-color: #28a745;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.admin-dashboard .add-coupon button:hover {
+  background-color: #218838;
+  transform: scale(1.05);
+}
+
+.admin-dashboard .coupon-list {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  max-width: 600px;
+}
+
+.admin-dashboard .coupon-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.admin-dashboard .coupon-item span {
+  font-size: 1rem;
+  color: #555;
+}
+
+.admin-dashboard .coupon-item button {
+  padding: 8px 15px;
+  font-size: 0.9rem;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.admin-dashboard .coupon-item button:hover {
+  background-color: #0056b3;
+  transform: scale(1.1);
+}
+
+.admin-dashboard .logout-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: white;
+  background-color: #dc3545;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.admin-dashboard .logout-button:hover {
+  background-color: #c82333;
+  transform: scale(1.05);
+}
+
+.coupon-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.coupon-actions .delete-button {
+  padding: 8px 15px;
+  font-size: 0.9rem;
+  color: white;
+  background-color: #dc3545;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.coupon-actions .delete-button:hover {
+  background-color: #c82333;
+  transform: scale(1.1);
+}
+
+.claim-history-table {
+  width: 100%;
+  max-width: 800px;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.claim-history-table th,
+.claim-history-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.claim-history-table th {
+  background-color: #007bff;
+  color: white;
+}
+
+.claim-history-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.claim-history-table tr:hover {
+  background-color: #e9ecef;
+}
